@@ -7,7 +7,14 @@ public class Weapon {
     private String name;
     private double damage;
     private double distance;
+    private String color;
 
+    public String getColor(){
+        return color;
+    }
+    public void setColor(String color){
+        this.color = color;
+    }
     public String getName() {
         return name;
     }
